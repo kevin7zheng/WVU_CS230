@@ -1,0 +1,7 @@
+.page-footer .container .row{
+    padding-right: 130px;
+    padding-left: 130px;
+}
+html body app-root app-bot-nav-bar footer.page-footer div.container.text-center.text-md-left div.row div.col-md-3.mb-md-0.mb-3 ul.list-unstyled li a {
+    font-size: 8px;
+}
