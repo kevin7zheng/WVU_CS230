@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
 templateUrl: 'side-nav-bar.component.html',
 styleUrls: ['./side-nav-bar.component.css']
 })
-export class SideNavBarComponent {}
+export class SideNavBarComponent {
+    
+}

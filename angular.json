@@ -28,7 +28,9 @@
               "src/NovelupdatesLogo.jpg",
               "src/NovelupdatesIcon.jpg",
               "src/NUSearch.jpg",
-              "src/NUTheme.jpg"
+              "src/NUTheme.jpg",
+              "src/colaAds.jpg",
+              "src/squareAds.jpg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
