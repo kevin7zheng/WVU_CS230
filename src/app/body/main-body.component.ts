@@ -6,6 +6,9 @@ styleUrls: ['./main-body.component.css']
 })
 export class MainBodyComponent {
     novel:string = "put novel title here"
+    novel1:string = "put novel title here"
+    novel2:string = "put novel title here"
+    novel3:string = "put novel title here"
     group:string = "put group name here"
-    comment:string = "add comment"
+    message:number = 4
 }
