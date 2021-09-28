@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'novelupdates-home',
+  selector: 'random-novel',
   templateUrl: './random-novel.component.html',
 })
 export class RandomNovelComponent implements OnInit {

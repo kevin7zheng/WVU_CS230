@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'novelupdates-home',
+  selector: 'forum',
   templateUrl: './forum.component.html',
 })
 export class ForumComponent implements OnInit {
