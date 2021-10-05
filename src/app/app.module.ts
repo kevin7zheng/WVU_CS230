@@ -31,7 +31,8 @@ import { SideNavBar2Component } from './sidebar/side-nav-bar2/side-nav-bar2.comp
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

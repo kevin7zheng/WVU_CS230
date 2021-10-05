@@ -15,7 +15,7 @@ export const mock_novellists= [
     group:"CClaw translation"
 },
 {
-    title: "red Packet Server",
+    title: "Red Packet Server",
     release: "c1509",
     group:"volarenovels"
 },
