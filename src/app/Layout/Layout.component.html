@@ -6,7 +6,10 @@
     <div class="row">
         <!--Body-->
         <div class="col-md-9">
-                <app-main-body title={{novellist.title}}>Loading</app-main-body>>
+                <app-main-body>Loading</app-main-body>>
+            <div *ngFor="let novellist of novellists;">
+                <app-body-list title={{novellist.title}} release={{novellist.release}} group={{novellist.group}}></app-body-list>
+            </div>
         </div>
         <!--Body-->
         <!--Side-Nav-Bar-->

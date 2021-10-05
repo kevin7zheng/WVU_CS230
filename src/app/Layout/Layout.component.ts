@@ -7,7 +7,7 @@ templateUrl: 'Layout.component.html',
 styleUrls: ['./Layout.component.css']
 })
 export class LayoutComponent {
-    novellists:Novellist [] = [];
+    novellists:Novellist[] = [];
 
     constructor() {
         for (var novellist of mock_novellists) {

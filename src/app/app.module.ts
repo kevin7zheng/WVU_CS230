@@ -15,7 +15,9 @@ import { SeriesFinderComponent } from './sidebar/series-finder/series-finder.com
 import { SeriesListingComponent } from './sidebar/series-listing/series-listing.component';
 import { EstrangeComponent } from './novel/estrange/estrange.component';
 import { SideNavBar2Component } from './sidebar/side-nav-bar2/side-nav-bar2.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
+import { BodyListComponent } from './body/body-list.component';
 
 
 @NgModule({
@@ -28,11 +30,13 @@ import { SideNavBar2Component } from './sidebar/side-nav-bar2/side-nav-bar2.comp
     SeriesListingComponent,
     EstrangeComponent,
     SideNavBar2Component,
+    UserInfoComponent,
+    BodyListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
