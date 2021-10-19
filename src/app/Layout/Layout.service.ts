@@ -9,6 +9,6 @@ export class LayoutService {
     }
 
     getLayoutService() {
-        return this.http.get<Novellist>(this.url);
+        return this.http.get<Novellist []>(this.url);
     }
 }

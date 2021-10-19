@@ -41,8 +41,11 @@ export class LayoutComponent {
         for (var novellist of mock_novellists) {
             this.novellists.push(new Novellist(novellist));
         }
-        this.layoutService.getLayoutService().subscribe(data=> {
-            console.log(data)
+        this.layoutService.getLayoutService().subscribe((data: Novellist [])=> {
+            console.log(data);
+            for (var item in data) {
+                console.log(data[item]);
+            }
         })
     }
 }
