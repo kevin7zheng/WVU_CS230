@@ -18,6 +18,7 @@ import { SideNavBar2Component } from './sidebar/side-nav-bar2/side-nav-bar2.comp
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
 import { BodyListComponent } from './body/body-list.component';
+import { BodyList2Component } from './body/body-list.component2';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { BodyListComponent } from './body/body-list.component';
     EstrangeComponent,
     SideNavBar2Component,
     UserInfoComponent,
-    BodyListComponent
+    BodyListComponent,
+    BodyList2Component
   ],
   imports: [
     BrowserModule,
