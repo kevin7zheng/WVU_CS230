@@ -19,6 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
 import { BodyListComponent } from './body/body-list.component';
 import { BodyList2Component } from './body/body-list.component2';
+import { NovelsComponent } from './Layout/Novels.component';
+import { EditUserInfoComponent } from './body/Login/edit-user-info.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -33,12 +36,15 @@ import { BodyList2Component } from './body/body-list.component2';
     SideNavBar2Component,
     UserInfoComponent,
     BodyListComponent,
-    BodyList2Component
+    BodyList2Component,
+    NovelsComponent,
+    EditUserInfoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
