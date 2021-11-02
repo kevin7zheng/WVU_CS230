@@ -1,4 +1,5 @@
 import { Component, Injectable, OnInit } from '@angular/core';
+import { DatabaseService } from '../body/database.service';
 import { UserInfo } from './user-info.model';
 import { UserInfoService } from './user-info.service';
 
@@ -8,7 +9,8 @@ templateUrl: 'user-info.component.html',
 })
 export class UserInfoComponent implements OnInit{
     myInfo: UserInfo | undefined;
-    constructor (private infoService: UserInfoService) {
+    constructor (private infoService: UserInfoService, private dbService:DatabaseService) {
+        dbService.showData();
     }
     ngOnInit(): void {
         console.log("Registering ShowUserInfo as a subscriber");
