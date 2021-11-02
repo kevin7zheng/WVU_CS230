@@ -17,7 +17,9 @@ export class EditUserInfoComponent implements OnInit {
     onUpdateUserInfo(data:UserInfo) {
         console.log("Pressed button");
         console.log(data);
-        this.infoService.modifyUserInfo(data);
+        this.infoService.modifyUserInfo(data).subscribe(data => {
+            console.log("Updated information to backend");
+        });
     }
   
   }

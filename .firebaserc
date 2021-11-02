@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "novelupdates-ee808": {
+      "hosting": {
+        "novelupdates": [
+          "novelupdates-ee808"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "novelupdates-ee808"
+  }
+}
