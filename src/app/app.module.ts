@@ -42,7 +42,7 @@ import { AuthComponent } from './auth/auth.component';
     BodyListComponent,
     BodyList2Component,
     NovelsComponent,
-    EditUserInfoComponent.
+    EditUserInfoComponent,
     AuthComponent
   ],
   imports: [
