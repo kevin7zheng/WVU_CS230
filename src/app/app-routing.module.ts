@@ -13,6 +13,7 @@ import { SeriesFilteringComponent } from './sidebar/series-filtering/series-filt
 import { SeriesFinderComponent } from './sidebar/series-finder/series-finder.component';
 import { SeriesListingComponent } from './sidebar/series-listing/series-listing.component';
 import { SeriesRankingComponent } from './sidebar/series-ranking/series-ranking.component';
+import { AuthComponent } from './auth/auth.component';
 
 
 const routes: Routes = [
@@ -28,7 +29,8 @@ const routes: Routes = [
   { path: 'readlist', component: ReadingListComponent },
   { path: 'releasefilter', component: ReleaseFilteringComponent},
   { path: 'seriesfilter', component: SeriesFilteringComponent },
-  { path: 'estrange', component: EstrangeComponent}
+  { path: 'estrange', component: EstrangeComponent},
+  { path: 'auth', component: AuthComponent}
 ];
 
 @NgModule({
